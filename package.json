@@ -1,0 +1,24 @@
+{
+  "name": "read-directory",
+  "version": "1.0.0",
+  "description": "Simple directory Reader Class",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.11.0"
+  },
+  "scripts": {
+    "test": "mocha tests/*.js",
+    "start": "node index"
+  },
+  "keywords": [
+    "read-directory"
+  ],
+  "author": "nagesh.gowtham@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "chai-spies": "^0.7.1",
+    "mocha": "^3.4.2",
+    "mock-fs": "^4.4.1"
+  }
+}
